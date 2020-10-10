@@ -22,7 +22,7 @@ class KnightPathFinder
             end
         end
         valid_pos.select do |pos|
-            (pos[0] >= 0 && pos[1] >= 0) && (pos[0] < 50 && pos[1] < 50)
+            (pos[0] >= 0 && pos[1] >= 0) && (pos[0] < 8 && pos[1] < 8)
         end
 
     end
